@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.ticon{
+    font-size: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+.menu{
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: -25%;
+    transition: 0.5s ease;
+}
+.menu h2{
+    color: white;
+    padding: 25px;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+.close{
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: 25px;
+    top: 16px;
+
+}
+.smenu{
+    left: 0%;
+}
